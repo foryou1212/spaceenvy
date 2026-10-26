@@ -1,7 +1,7 @@
 {
   "planHash": "56c6c3b553e3c5a3e87d2008586b789508f7a0648d63687e9961f526fda9b8fc",
   "phase": "baseline",
-  "recordedAtUtc": "2026-10-26T20:06:27.0051175Z",
+  "recordedAtUtc": "2026-10-26T20:37:03.5106985Z",
   "retryCount": 0,
   "resetBaseline": true,
   "complete": true,
@@ -20,7 +20,7 @@
         "skippedReason": null,
         "exitCode": 0,
         "outputSample": "",
-        "durationMs": 11898
+        "durationMs": 11196
       },
       {
         "name": "lint-pass",
@@ -32,7 +32,7 @@
         "skippedReason": null,
         "exitCode": 0,
         "outputSample": "npm warn Unknown env config \u0022scripts-prepend-node-path\u0022. This will stop working in the next major version of npm.\r\n\r\n\u003E ***@0.1.0 lint\r\n\u003E eslint\r\n\r\n",
-        "durationMs": 15356
+        "durationMs": 30276
       },
       {
         "name": "tests-pass",
@@ -43,8 +43,8 @@
         "skipped": false,
         "skippedReason": null,
         "exitCode": 0,
-        "outputSample": "npm warn Unknown env config \u0022scripts-prepend-node-path\u0022. This will stop working in the next major version of npm.\r\n\r\n\u003E ***@0.1.0 test\r\n\u003E vitest run src --pool=forks\r\n\r\n\r\n\u001B[1m\u001B[46m RUN \u001B[49m\u001B[22m \u001B[36mv3.2.7 \u001B[39m\u001B[90mc:/Users/raghu/Downloads/svr/spaceenvy\u001B[39m\r\n\r\n \u001B[32m\u2713\u001B[39m src/lib/csv.test.ts \u001B[2m(\u001B[22m\u001B[2m3 tests\u001B[22m\u001B[2m)\u001B[22m\u001B[32m 7\u001B[2mms\u001B[22m\u001B[39m\r\n\r\n\u001B[2m Test Files \u001B[22m \u001B[1m\u001B[32m1 passed\u001B[39m\u001B[22m\u001B[90m (1)\u001B[39m\r\n\u001B[2m      Tests \u001B[22m \u001B[1m\u001B[32m3 passed\u001B[39m\u001B[22m\u001B[90m (3)\u001B[39m\r\n\u001B[2m   Start at \u001B[22m 01:35:55\r\n\u001B[2m   Duration \u001B[22m 8.81s\u001B[2m (transform 210ms, setup 0ms, collect 246ms, tests 7ms, environment 0ms, prepare 342ms)\u001B[22m\r\n\r\n",
-        "durationMs": 14859,
+        "outputSample": "npm warn Unknown env config \u0022scripts-prepend-node-path\u0022. This will stop working in the next major version of npm.\r\n\r\n\u003E ***@0.1.0 test\r\n\u003E vitest run src --pool=forks\r\n\r\n\r\n\u001B[1m\u001B[46m RUN \u001B[49m\u001B[22m \u001B[36mv3.2.7 \u001B[39m\u001B[90mc:/Users/raghu/Downloads/svr/spaceenvy\u001B[39m\r\n\r\n \u001B[32m\u2713\u001B[39m src/lib/csv.test.ts \u001B[2m(\u001B[22m\u001B[2m3 tests\u001B[22m\u001B[2m)\u001B[22m\u001B[32m 11\u001B[2mms\u001B[22m\u001B[39m\r\n\r\n\u001B[2m Test Files \u001B[22m \u001B[1m\u001B[32m1 passed\u001B[39m\u001B[22m\u001B[90m (1)\u001B[39m\r\n\u001B[2m      Tests \u001B[22m \u001B[1m\u001B[32m3 passed\u001B[39m\u001B[22m\u001B[90m (3)\u001B[39m\r\n\u001B[2m   Start at \u001B[22m 02:06:19\r\n\u001B[2m   Duration \u001B[22m 9.34s\u001B[2m (transform 210ms, setup 0ms, collect 239ms, tests 11ms, environment 1ms, prepare 598ms)\u001B[22m\r\n\r\n",
+        "durationMs": 14854,
         "testResults": {
           "testFramework": "vitest",
           "runnerDetectedFrom": "package_json",
@@ -64,8 +64,8 @@
         "skipped": false,
         "skippedReason": null,
         "exitCode": 0,
-        "outputSample": "\r\nRunning 1 test using 1 worker\r\n\r\n[1/1] playwright-scripts\\home-hero.spec.ts:5:5 \u203A home-hero\r\n  1 passed (8.3s)\r\n",
-        "durationMs": 10539
+        "outputSample": "\r\nRunning 1 test using 1 worker\r\n\r\n[1/1] playwright-scripts\\home-hero.spec.ts:5:5 \u203A home-hero\r\n  1 passed (11.5s)\r\n",
+        "durationMs": 15151
       },
       {
         "name": "projects-navigation-flow",
@@ -76,8 +76,8 @@
         "skipped": false,
         "skippedReason": null,
         "exitCode": 0,
-        "outputSample": "\r\nRunning 1 test using 1 worker\r\n\r\n[1/1] playwright-scripts\\projects-navigation.spec.ts:5:5 \u203A projects-navigation\r\n  1 passed (9.3s)\r\n",
-        "durationMs": 11484
+        "outputSample": "\r\nRunning 1 test using 1 worker\r\n\r\n[1/1] playwright-scripts\\projects-navigation.spec.ts:5:5 \u203A projects-navigation\r\n  1 passed (15.4s)\r\n",
+        "durationMs": 18297
       }
     ],
     "executions": [
@@ -103,7 +103,7 @@
         "packageManagerExecutable": "C:\\Program Files\\nodejs\\npm.cmd",
         "packageManagerVersion": "11.9.0",
         "cleanup": {
-          "RootProcessId": 6400,
+          "RootProcessId": 33008,
           "Completed": true,
           "ProcessesObserved": 13,
           "ProcessesTerminated": 7,
@@ -127,9 +127,9 @@
         "packageManagerExecutable": null,
         "packageManagerVersion": null,
         "cleanup": {
-          "RootProcessId": 34148,
+          "RootProcessId": 19264,
           "Completed": true,
-          "ProcessesObserved": 7,
+          "ProcessesObserved": 8,
           "ProcessesTerminated": 1,
           "Failure": null
         }
@@ -151,10 +151,10 @@
         "packageManagerExecutable": "C:\\Program Files\\nodejs\\npm.cmd",
         "packageManagerVersion": "11.9.0",
         "cleanup": {
-          "RootProcessId": 27208,
+          "RootProcessId": 5912,
           "Completed": true,
-          "ProcessesObserved": 7,
-          "ProcessesTerminated": 1,
+          "ProcessesObserved": 6,
+          "ProcessesTerminated": 0,
           "Failure": null
         }
       },
@@ -174,7 +174,7 @@
         "packageManagerExecutable": "C:\\Program Files\\nodejs\\npm.cmd",
         "packageManagerVersion": "11.9.0",
         "cleanup": {
-          "RootProcessId": 29832,
+          "RootProcessId": 5472,
           "Completed": true,
           "ProcessesObserved": 24,
           "ProcessesTerminated": 1,
