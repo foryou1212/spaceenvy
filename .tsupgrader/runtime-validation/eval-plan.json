@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-10-26T20:05:00.000Z",
+  "generatedOnPlatform": "win32",
+  "projectType": "webapp",
+  "devServer": {
+    "command": "npm",
+    "args": [
+      "run",
+      "dev",
+      "--",
+      "--hostname",
+      "127.0.0.1",
+      "--port",
+      "3000"
+    ],
+    "url": "http://localhost:3000/",
+    "readyTimeoutSeconds": 120
+  },
+  "setup": [],
+  "assertions": [
+    {
+      "name": "tsc-no-emit",
+      "kind": "process",
+      "command": "npx",
+      "args": [
+        "tsc",
+        "--noEmit"
+      ],
+      "verificationMethod": "exit-code",
+      "expected": "0",
+      "timeoutSeconds": 180
+    },
+    {
+      "name": "lint-pass",
+      "kind": "process",
+      "command": "npm",
+      "args": [
+        "run",
+        "lint"
+      ],
+      "verificationMethod": "exit-code",
+      "expected": "0",
+      "timeoutSeconds": 180
+    },
+    {
+      "name": "tests-pass",
+      "kind": "process",
+      "command": "npm",
+      "args": [
+        "test"
+      ],
+      "verificationMethod": "test-results",
+      "expected": "0",
+      "timeoutSeconds": 300
+    },
+    {
+      "name": "home-hero-flow",
+      "kind": "playwright-route",
+      "scriptPath": ".tsupgrader/runtime-validation/playwright-scripts/home-hero.spec.ts",
+      "verificationMethod": "exit-code",
+      "expected": "0",
+      "timeoutSeconds": 180
+    },
+    {
+      "name": "projects-navigation-flow",
+      "kind": "playwright-route",
+      "scriptPath": ".tsupgrader/runtime-validation/playwright-scripts/projects-navigation.spec.ts",
+      "verificationMethod": "exit-code",
+      "expected": "0",
+      "timeoutSeconds": 180
+    }
+  ]
+}
