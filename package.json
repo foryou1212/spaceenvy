@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "vitest run src --pool=forks",
     "lint": "eslint"
   },
   "dependencies": {
@@ -23,6 +24,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "7.0.2",
+    "vitest": "^3.2.7",
+    "vite": "latest"
   }
 }
