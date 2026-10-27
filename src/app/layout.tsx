@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   alternates: { canonical: "/" },
   description:
-    "SpaceEnvy creates thoughtful interior design for homes, flats, and commercial spaces in Hyderabad, India.",
+    "SpaceEnvy creates thoughtful interior design for homes, apartments, and commercial spaces in Hyderabad, Visakhapatnam, Telangana, and Andhra Pradesh.",
   keywords: [
     "interior designer Hyderabad",
     "home interiors Hyderabad",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "SpaceEnvy",
     title: "SpaceEnvy | Interior Design in Hyderabad",
     description:
-      "Thoughtful interiors for homes, flats, and commercial spaces in Hyderabad.",
+      "Thoughtful interiors for homes, apartments, and commercial spaces across Hyderabad, Visakhapatnam, Telangana, and Andhra Pradesh.",
   },
 };
 
@@ -45,11 +45,13 @@ const businessSchema = {
   "@type": "ProfessionalService",
   name: "SpaceEnvy",
   description:
-    "Thoughtful interior design for homes, flats, and commercial spaces in Hyderabad, India.",
-  areaServed: {
-    "@type": "City",
-    name: "Hyderabad",
-  },
+    "Thoughtful interior design for homes, apartments, and commercial spaces in Hyderabad, Visakhapatnam, Telangana, and Andhra Pradesh.",
+  areaServed: [
+    { "@type": "City", name: "Hyderabad" },
+    { "@type": "City", name: "Visakhapatnam" },
+    { "@type": "State", name: "Telangana" },
+    { "@type": "State", name: "Andhra Pradesh" },
+  ],
   address: {
     "@type": "PostalAddress",
     addressLocality: "Hyderabad",

@@ -33,8 +33,9 @@ async function AboutContent() {
           <p className="eyebrow">A little about us</p>
           <h1>Design that starts with you.</h1>
           <p>
-            SpaceEnvy is an interior design studio in Hyderabad, bringing
-            thoughtful ideas and careful execution together.
+            SpaceEnvy is an interior design studio based in Hyderabad, serving
+            homes, apartments, and commercial spaces across Telangana and
+            Andhra Pradesh, including Visakhapatnam.
           </p>
         </section>
         <section className="about-story page-shell">
