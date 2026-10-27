@@ -58,7 +58,9 @@ async function HomeContent() {
               </Link>
             </div>
           </div>
-          <div className="hero__caption">Considered interiors · Hyderabad</div>
+          <div className="hero__caption">
+            Considered interiors · Hyderabad · Visakhapatnam
+          </div>
           <a className="hero__scroll" href="#intro" aria-label="Scroll to discover">
             <span aria-hidden="true">↓</span>
           </a>
@@ -245,7 +247,9 @@ async function HomeContent() {
             </p>
             <div className="enquiry-note">
               <span className="enquiry-note__dot" />
-              <span>Based in Hyderabad · Working across the city</span>
+              <span>
+                Based in Hyderabad · Serving Telangana and Andhra Pradesh
+              </span>
             </div>
             <WhatsAppContact />
           </div>
